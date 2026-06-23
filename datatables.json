@@ -1,0 +1,18 @@
+{
+    "js": [
+        "js/cardView.bulma.js",
+        "js/cardView.bulma.min.js",
+        "js/cardView.bulma.min.mjs",
+        "js/cardView.bulma.mjs"
+    ],
+    "css": [
+        "css/cardView.bulma.css",
+        "css/cardView.bulma.min.css"
+    ],
+    "types": [
+        "types/cardView.bulma.d.ts"
+    ],
+    "src-repo": "http://github.com/DataTables/CardView",
+    "last-tag": "null",
+    "last-sync": ""
+}
