@@ -8,7 +8,8 @@ import CardView from 'datatables.net-cardview';
 
 Object.assign(DataTable.CardView.classes, {
 	card: 'card dtcv-card',
-	cardContent: 'card-content'
+	cardContent: 'card-content',
+	container: 'dtcv-container content'
 });
 
 
