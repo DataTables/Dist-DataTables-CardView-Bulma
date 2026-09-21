@@ -1,16 +1,15 @@
 {
     "name": "datatables.net-cardview-bm",
     "description": "CardView for DataTables with styling for [Bulma](https://bulma.io/)",
-    "main": "js/cardView.bulma.js",
-    "module": "js/cardView.bulma.mjs",
-    "style": "css/cardView.bulma.css",
+    "main": "./js/cardView.bulma.js",
+    "module": "./js/cardView.bulma.mjs",
+    "style": "./css/cardView.bulma.css",
     "types": "./types/cardView.bulma.d.ts",
     "version": "1.0.3",
     "files": [
-        "css/**/*.css",
-        "js/**/*.js",
-        "js/**/*.mjs",
-        "types/**/*.d.ts"
+        "js",
+        "css",
+        "types"
     ],
     "keywords": [
         "Cards",
@@ -31,5 +30,24 @@
     },
     "homepage": "https://datatables.net",
     "bugs": "https://datatables.net/forums",
-    "license": "SEE LICENSE IN License.txt"
+    "license": "SEE LICENSE IN License.txt",
+    "exports": {
+        ".": {
+            "types": "./types/cardView.bulma.d.ts",
+            "import": "./js/cardView.bulma.mjs",
+            "default": "./js/cardView.bulma.mjs",
+            "require": "./js/cardView.bulma.js"
+        },
+        "./js/*": "./js/*",
+        "./css": {
+            "types": "./types/css.d.ts",
+            "default": "./css/cardView.bulma.css"
+        },
+        "./css/*": {
+            "types": "./types/css.d.ts",
+            "default": "./css/*"
+        },
+        "./package.json": "./package.json"
+    },
+    "sideEffects": true
 }
