@@ -34,9 +34,10 @@
     "exports": {
         ".": {
             "types": "./types/cardView.bulma.d.ts",
+            "style": "./css/cardView.bulma.css",
             "import": "./js/cardView.bulma.mjs",
-            "default": "./js/cardView.bulma.mjs",
-            "require": "./js/cardView.bulma.js"
+            "require": "./js/cardView.bulma.js",
+            "default": "./js/cardView.bulma.mjs"
         },
         "./js/*": "./js/*",
         "./css": {
