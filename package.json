@@ -5,7 +5,7 @@
     "module": "./js/cardView.bulma.mjs",
     "style": "./css/cardView.bulma.css",
     "types": "./types/cardView.bulma.d.ts",
-    "version": "1.1.1",
+    "version": "1.1.2",
     "files": [
         "js",
         "css",
@@ -21,7 +21,7 @@
         "sort"
     ],
     "dependencies": {
-        "datatables.net-cardview": "1.1.1",
+        "datatables.net-cardview": "1.1.2",
         "datatables.net-bm": "^3.1"
     },
     "author": {
